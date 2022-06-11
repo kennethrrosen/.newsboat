@@ -1,7 +1,12 @@
 auto-reload yes
+reload-time 120
+reload-threads 4
+download-retries 4
+download-timeout 10
+prepopulate-query-feeds yes
 max-items 100
 
-browser "tor %u"
+browser "open -g -a 'Tor' %u"
 
 color background          white   default
 color listnormal          white   default
@@ -22,3 +27,18 @@ highlight feedlist "--- Tech" color200 default bold
 highlight feedlist "--- Longform" color6 default bold
 highlight feedlist "--- Linux" color6 default bold
 highlight feedlist "--- Other" color6 default bold
+
+show-read-feeds no
+feed-sort-order unreadarticlecount-asc
+
+//color info default default reverse
+color listnormal_unread yellow default
+color listfocus blue default reverse bold
+color listfocus_unread blue default reverse bold//
+
+bookmark-cmd ~/.newsbeuter/bookmark.sh
+bookmark-interactive no
+bookmark-autopilot yes
+
+confirm-exit yes
+cleanup-on-quit yes
