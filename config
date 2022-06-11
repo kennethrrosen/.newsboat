@@ -1,0 +1,24 @@
+auto-reload yes
+max-items 100
+
+browser "tor %u"
+
+color background          white   default
+color listnormal          white   default
+color listfocus           yellow  default bold
+color listnormal_unread   color132 default
+color listfocus_unread    yellow default bold
+color info                yellow  black bold
+color article             white   default
+
+feedlist-format "%?T?  %8u  %t  %4S & --- %t ?"
+articlelist-format "%D  %t"
+
+highlight feedlist "--- Int" color1 default bold
+highlight feedlist "--- Euro" color2 default bold
+highlight feedlist "--- Dom" color4 default bold
+highlight feedlist "--- Ital" color190 default bold
+highlight feedlist "--- Tech" color200 default bold
+highlight feedlist "--- Longform" color6 default bold
+highlight feedlist "--- Linux" color6 default bold
+highlight feedlist "--- Other" color6 default bold
