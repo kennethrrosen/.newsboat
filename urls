@@ -5,5 +5,52 @@
 "query:Unread Articles (1 week old):unread = \"yes\" and tags !# \"pouet\" and tags !# \"page2rss\" and tags !# \"xiv\" and age between 0:7"
 "query:Unread Articles (favourite):unread = \"yes\" and tags # \"favourite\""
 
-# Int
+INT
+
 http://rss.nytimes.com/services/xml/rss/nyt/World.xml "International"
+Podcasts
+
+EURO
+
+
+DOM
+
+
+ITAL
+
+LONGFORM
+
+TECH
+
+http://www.theverge.com/rss/index.xml "~The Verge"
+https://techcrunch.com/feed/ "~TechCrunch"
+http://feeds.mashable.com/Mashable "~Mashable"
+http://www.engadget.com/rss.xml "~Engadget"
+https://www.xataka.com/index.xml "~Xataka"
+https://www.techradar.com/rss "~Tech Radar"
+https://lifehacker.com/rss "~Life Hacker"
+https://pimylifeup.com/feed/ "~Pi my Life UP"
+https://www.androidauthority.com/feed "~Android Authority"
+http://feeds.feedburner.com/elandroidelibre "~El Androide Libre"
+https://www.trustedreviews.com/feed "~Trusted Reviews"
+https://betanews.com/feed "~Beta News"
+https://hackaday.com/blog/feed/ "~Hack a Day"
+http://feeds.arstechnica.com/arstechnica/index "~Ars Technica"
+
+
+LINUX
+https://linuxize.com/index.xml "~Linuxize"
+http://feeds.feedburner.com/ubunlog "~Ubunlog"
+https://lukesmith.xyz/rss.xml "~Luke Smith"
+https://linuxhint.com/feed/ "~Linux Hint"
+https://www.tecmint.com/feed/ "~Tecmint"
+https://itsfoss.com/feed/ "~It's FOSS"
+https://distrowatch.com/news/news-headlines.xml "~Distro Watch"
+https://opensource.com/feed "~Opensource.com"
+https://www.omgubuntu.co.uk/feed "~OMG Ubuntu"
+https://www.linuxjournal.com/node/feed "~Linux Journal"
+http://lxer.com/module/newswire/headlines.rss "~LXer"
+https://linuxinsider.com/rss-feed?__hstc=67659214.8faa89d4b3d59daeec209ffd72dc8da9.1605133247736.1605133247736.1605133247736.1&__hssc=67659214.22.1605133247737&__hsfp=3355833231 "~Linux Insider"
+https://www.gamingonlinux.com/article_rss.php "~Gaming on Linux"
+
+OTHER
