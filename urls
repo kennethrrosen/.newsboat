@@ -5,22 +5,58 @@
 "query:Unread Articles (1 week old):unread = \"yes\" and tags !# \"pouet\" and tags !# \"page2rss\" and tags !# \"xiv\" and age between 0:7"
 "query:Unread Articles (favourite):unread = \"yes\" and tags # \"favourite\""
 
-INT
+Int:
+https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+https://www.theguardian.com/world/rss
+https://drudgereport.com/?xid=rss-page
+http://www.newyorker.com/feed/news/news-desk
+https://feeds.washingtonpost.com/rss/world
+http://feeds.bbci.co.uk/news/world/rss.xml
+http://www.npr.org/rss/rss.php?id=1004
+http://feeds.feedburner.com/time/world
 
-http://rss.nytimes.com/services/xml/rss/nyt/World.xml "International"
-Podcasts
+Euro:
+https://rss.nytimes.com/services/xml/rss/nyt/Europe.xml
+https://www.theguardian.com/world/europe-news/rss
+http://feeds.feedburner.com/euronews/en/home/
+https://www.politico.eu/feed/
 
-EURO
+Dom:
+https://rss.nytimes.com/services/xml/rss/nyt/US.xml
+https://rss.nytimes.com/services/xml/rss/nyt/Business.xml
+https://rss.nytimes.com/services/xml/rss/nyt/Arts.xml
+https://feeds.washingtonpost.com/rss/national
+https://www.propublica.org/feeds/propublica/main
 
+Italy:
+https://www.ansa.it/web/ansait_web_rss_homepage.xml
+https://thelocal.it/feeds/rss.php
+https://www.repubblica.it/rss/homepage/rss2.0.xml
 
-DOM
+Longreads:
+https://longreads.com/feed/
+http://www.newyorker.com/feed/magazine/rss
 
+Enviro:
+https://www.theverge.com/rss/environment/index.xml
+https://grist.org/feed/
+https://theecologist.org/whats_new/feed
+http://e360.yale.edu/feed.xml
 
-ITAL
+Tech:
+https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
+https://www.theverge.com/tech/rss/index.xml
+http://www.newyorker.com/feed/tech
+https://feeds.washingtonpost.com/rss/business/technology
 
-LONGFORM
+Podcasts:
+http://rss.art19.com/the-daily
 
-TECH
+Other:
+https://rss.nytimes.com/services/xml/rss/nyt/MostShared.xml
+https://rss.nytimes.com/services/xml/rss/nyt/MostViewed.xml
+https://rss.nytimes.com/services/xml/rss/nyt/sunday-review.xml
+http://www.newyorker.com/feed/tag/books/rss
 
 http://www.theverge.com/rss/index.xml "~The Verge"
 https://techcrunch.com/feed/ "~TechCrunch"
@@ -52,5 +88,3 @@ https://www.linuxjournal.com/node/feed "~Linux Journal"
 http://lxer.com/module/newswire/headlines.rss "~LXer"
 https://linuxinsider.com/rss-feed?__hstc=67659214.8faa89d4b3d59daeec209ffd72dc8da9.1605133247736.1605133247736.1605133247736.1&__hssc=67659214.22.1605133247737&__hsfp=3355833231 "~Linux Insider"
 https://www.gamingonlinux.com/article_rss.php "~Gaming on Linux"
-
-OTHER
