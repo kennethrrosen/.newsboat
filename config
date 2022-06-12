@@ -1,3 +1,38 @@
+/* save-path "~/Saved Articles”
+auto-reload yes
+
+bookmark-cmd "~/bin/delicious- bookmark.sh”
+
+browser "w3m %u”
+
+cleanup-on-quit yes
+
+color background white black
+
+confirm-exit no
+
+delete-read-articles-on-quit yes
+
+display-article-progress no
+
+keep-articles-days 0
+
+proxy localhost:3128 (server:port)
+
+use-proxy yes
+
+refresh-on-startup yes
+
+save-path “~/Reading Archive"
+
+TAG FEEDS “~”
+
+(HOW TO SHARE?)
+
+*/
+
+
+
 auto-reload yes
 reload-time 120
 reload-threads 4
